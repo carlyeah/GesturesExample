@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0759092C194AA7A300A4B469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759092B194AA7A300A4B469 /* Foundation.framework */; };
+		0759092E194AA7A300A4B469 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759092D194AA7A300A4B469 /* CoreGraphics.framework */; };
+		07590930194AA7A300A4B469 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759092F194AA7A300A4B469 /* UIKit.framework */; };
+		07590936194AA7A300A4B469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07590934194AA7A300A4B469 /* InfoPlist.strings */; };
+		07590938194AA7A300A4B469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07590937194AA7A300A4B469 /* main.m */; };
+		0759093C194AA7A300A4B469 /* CLYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759093B194AA7A300A4B469 /* CLYAppDelegate.m */; };
+		0759093E194AA7A300A4B469 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0759093D194AA7A300A4B469 /* Images.xcassets */; };
+		07590945194AA7A300A4B469 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07590944194AA7A300A4B469 /* XCTest.framework */; };
+		07590946194AA7A300A4B469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759092B194AA7A300A4B469 /* Foundation.framework */; };
+		07590947194AA7A300A4B469 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759092F194AA7A300A4B469 /* UIKit.framework */; };
+		0759094F194AA7A300A4B469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0759094D194AA7A300A4B469 /* InfoPlist.strings */; };
+		07590951194AA7A300A4B469 /* AngryPenaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07590950194AA7A300A4B469 /* AngryPenaTests.m */; };
+		0759095C194CB91500A4B469 /* CLYSystemSounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759095B194CB91500A4B469 /* CLYSystemSounds.m */; };
+		77E100BDEE04A785B54309F0 /* pena_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E107DE8D55F084F6E04809 /* pena_2.jpg */; };
+		77E105F9D13039083DB8E533 /* tape1.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E1007B90289126B1B88069 /* tape1.png */; };
+		77E1067559AC3C3866322E2E /* CLYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E10A4947D3FE80859342EE /* CLYViewController.m */; };
+		77E106D21D1FFE205AFB799D /* squashed_tomato@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E109B4737B379CACD8BB49 /* squashed_tomato@2x.png */; };
+		77E107C839B7CA5F026B3124 /* pena_speaking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77E10E8DFB59E0C2DC892F5B /* pena_speaking.mp3 */; };
+		77E1093B0D8C8B05FEEB6E39 /* squashed_tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E10AF6541B43DC30DEA8E4 /* squashed_tomato.png */; };
+		77E109D4D4D377772C3D86A5 /* pena_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E10DE882303D3C34C196D7 /* pena_1.jpg */; };
+		77E10AA9E14BF4492D0F4FCE /* tape2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E102110AD42996CFE0D14E /* tape2.png */; };
+		77E10AE10D30A87ED248C3F3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 77E10907F962854BE6D6EA71 /* .gitignore */; };
+		77E10C6E0D99C9826C581FAC /* splat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 77E10A450D5602355CAE5AE1 /* splat.wav */; };
+		77E10C8429BFCFBAFC3CE564 /* crackedGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E1077C27CCA30C8ECA23E1 /* crackedGlass.png */; };
+		77E10DA86FC442EBF872119B /* tape4.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E103D54F0E8C7D158BB551 /* tape4.png */; };
+		77E10E3B64829A34DA97EE13 /* tape3.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E10F61BFE42CD1F9DC9C29 /* tape3.png */; };
+		77E10EF58E007AEE672FD36E /* CLYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E10A6BE395F6305BAF232D /* CLYViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07590948194AA7A300A4B469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07590920194AA7A300A4B469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07590927194AA7A300A4B469;
+			remoteInfo = AngryPena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07590928194AA7A300A4B469 /* AngryPena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryPena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0759092B194AA7A300A4B469 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0759092D194AA7A300A4B469 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0759092F194AA7A300A4B469 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07590933194AA7A300A4B469 /* AngryPena-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AngryPena-Info.plist"; sourceTree = "<group>"; };
+		07590935194AA7A300A4B469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07590937194AA7A300A4B469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07590939194AA7A300A4B469 /* AngryPena-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AngryPena-Prefix.pch"; sourceTree = "<group>"; };
+		0759093A194AA7A300A4B469 /* CLYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLYAppDelegate.h; sourceTree = "<group>"; };
+		0759093B194AA7A300A4B469 /* CLYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLYAppDelegate.m; sourceTree = "<group>"; };
+		0759093D194AA7A300A4B469 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07590943194AA7A300A4B469 /* AngryPenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryPenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07590944194AA7A300A4B469 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0759094C194AA7A300A4B469 /* AngryPenaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AngryPenaTests-Info.plist"; sourceTree = "<group>"; };
+		0759094E194AA7A300A4B469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07590950194AA7A300A4B469 /* AngryPenaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngryPenaTests.m; sourceTree = "<group>"; };
+		0759095A194CB91500A4B469 /* CLYSystemSounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYSystemSounds.h; sourceTree = "<group>"; };
+		0759095B194CB91500A4B469 /* CLYSystemSounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYSystemSounds.m; sourceTree = "<group>"; };
+		77E1007B90289126B1B88069 /* tape1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape1.png; sourceTree = "<group>"; };
+		77E102110AD42996CFE0D14E /* tape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape2.png; sourceTree = "<group>"; };
+		77E103D54F0E8C7D158BB551 /* tape4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape4.png; sourceTree = "<group>"; };
+		77E1077C27CCA30C8ECA23E1 /* crackedGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crackedGlass.png; sourceTree = "<group>"; };
+		77E107DE8D55F084F6E04809 /* pena_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pena_2.jpg; sourceTree = "<group>"; };
+		77E10907F962854BE6D6EA71 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		77E109B4737B379CACD8BB49 /* squashed_tomato@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squashed_tomato@2x.png"; sourceTree = "<group>"; };
+		77E109D29A26D644BDC54C31 /* CLYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYViewController.h; sourceTree = "<group>"; };
+		77E10A450D5602355CAE5AE1 /* splat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = splat.wav; sourceTree = "<group>"; };
+		77E10A4947D3FE80859342EE /* CLYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYViewController.m; sourceTree = "<group>"; };
+		77E10A6BE395F6305BAF232D /* CLYViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLYViewController.xib; sourceTree = "<group>"; };
+		77E10AF6541B43DC30DEA8E4 /* squashed_tomato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squashed_tomato.png; sourceTree = "<group>"; };
+		77E10DE882303D3C34C196D7 /* pena_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pena_1.jpg; sourceTree = "<group>"; };
+		77E10E8DFB59E0C2DC892F5B /* pena_speaking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pena_speaking.mp3; sourceTree = "<group>"; };
+		77E10F61BFE42CD1F9DC9C29 /* tape3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07590925194AA7A300A4B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0759092E194AA7A300A4B469 /* CoreGraphics.framework in Frameworks */,
+				07590930194AA7A300A4B469 /* UIKit.framework in Frameworks */,
+				0759092C194AA7A300A4B469 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07590940194AA7A300A4B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07590945194AA7A300A4B469 /* XCTest.framework in Frameworks */,
+				07590947194AA7A300A4B469 /* UIKit.framework in Frameworks */,
+				07590946194AA7A300A4B469 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0759091F194AA7A300A4B469 = {
+			isa = PBXGroup;
+			children = (
+				07590931194AA7A300A4B469 /* AngryPena */,
+				0759094A194AA7A300A4B469 /* AngryPenaTests */,
+				0759092A194AA7A300A4B469 /* Frameworks */,
+				07590929194AA7A300A4B469 /* Products */,
+				77E10907F962854BE6D6EA71 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		07590929194AA7A300A4B469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07590928194AA7A300A4B469 /* AngryPena.app */,
+				07590943194AA7A300A4B469 /* AngryPenaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0759092A194AA7A300A4B469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0759092B194AA7A300A4B469 /* Foundation.framework */,
+				0759092D194AA7A300A4B469 /* CoreGraphics.framework */,
+				0759092F194AA7A300A4B469 /* UIKit.framework */,
+				07590944194AA7A300A4B469 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07590931194AA7A300A4B469 /* AngryPena */ = {
+			isa = PBXGroup;
+			children = (
+				0759093A194AA7A300A4B469 /* CLYAppDelegate.h */,
+				0759093B194AA7A300A4B469 /* CLYAppDelegate.m */,
+				0759093D194AA7A300A4B469 /* Images.xcassets */,
+				07590932194AA7A300A4B469 /* Supporting Files */,
+				77E109D29A26D644BDC54C31 /* CLYViewController.h */,
+				77E10A4947D3FE80859342EE /* CLYViewController.m */,
+				77E10A6BE395F6305BAF232D /* CLYViewController.xib */,
+				77E1063B366827A86C31F87B /* Resources */,
+				0759095A194CB91500A4B469 /* CLYSystemSounds.h */,
+				0759095B194CB91500A4B469 /* CLYSystemSounds.m */,
+			);
+			path = AngryPena;
+			sourceTree = "<group>";
+		};
+		07590932194AA7A300A4B469 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07590933194AA7A300A4B469 /* AngryPena-Info.plist */,
+				07590934194AA7A300A4B469 /* InfoPlist.strings */,
+				07590937194AA7A300A4B469 /* main.m */,
+				07590939194AA7A300A4B469 /* AngryPena-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0759094A194AA7A300A4B469 /* AngryPenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				07590950194AA7A300A4B469 /* AngryPenaTests.m */,
+				0759094B194AA7A300A4B469 /* Supporting Files */,
+			);
+			path = AngryPenaTests;
+			sourceTree = "<group>";
+		};
+		0759094B194AA7A300A4B469 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0759094C194AA7A300A4B469 /* AngryPenaTests-Info.plist */,
+				0759094D194AA7A300A4B469 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77E1063B366827A86C31F87B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77E10DE882303D3C34C196D7 /* pena_1.jpg */,
+				77E107DE8D55F084F6E04809 /* pena_2.jpg */,
+				77E1077C27CCA30C8ECA23E1 /* crackedGlass.png */,
+				77E1007B90289126B1B88069 /* tape1.png */,
+				77E102110AD42996CFE0D14E /* tape2.png */,
+				77E10F61BFE42CD1F9DC9C29 /* tape3.png */,
+				77E103D54F0E8C7D158BB551 /* tape4.png */,
+				77E10AF6541B43DC30DEA8E4 /* squashed_tomato.png */,
+				77E109B4737B379CACD8BB49 /* squashed_tomato@2x.png */,
+				77E10A450D5602355CAE5AE1 /* splat.wav */,
+				77E10E8DFB59E0C2DC892F5B /* pena_speaking.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07590927194AA7A300A4B469 /* AngryPena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07590954194AA7A300A4B469 /* Build configuration list for PBXNativeTarget "AngryPena" */;
+			buildPhases = (
+				07590924194AA7A300A4B469 /* Sources */,
+				07590925194AA7A300A4B469 /* Frameworks */,
+				07590926194AA7A300A4B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryPena;
+			productName = AngryPena;
+			productReference = 07590928194AA7A300A4B469 /* AngryPena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07590942194AA7A300A4B469 /* AngryPenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07590957194AA7A300A4B469 /* Build configuration list for PBXNativeTarget "AngryPenaTests" */;
+			buildPhases = (
+				0759093F194AA7A300A4B469 /* Sources */,
+				07590940194AA7A300A4B469 /* Frameworks */,
+				07590941194AA7A300A4B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07590949194AA7A300A4B469 /* PBXTargetDependency */,
+			);
+			name = AngryPenaTests;
+			productName = AngryPenaTests;
+			productReference = 07590943194AA7A300A4B469 /* AngryPenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07590920194AA7A300A4B469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Carlos Eduardo López Mercado";
+				TargetAttributes = {
+					07590942194AA7A300A4B469 = {
+						TestTargetID = 07590927194AA7A300A4B469;
+					};
+				};
+			};
+			buildConfigurationList = 07590923194AA7A300A4B469 /* Build configuration list for PBXProject "AngryPena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0759091F194AA7A300A4B469;
+			productRefGroup = 07590929194AA7A300A4B469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07590927194AA7A300A4B469 /* AngryPena */,
+				07590942194AA7A300A4B469 /* AngryPenaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07590926194AA7A300A4B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07590936194AA7A300A4B469 /* InfoPlist.strings in Resources */,
+				0759093E194AA7A300A4B469 /* Images.xcassets in Resources */,
+				77E10EF58E007AEE672FD36E /* CLYViewController.xib in Resources */,
+				77E109D4D4D377772C3D86A5 /* pena_1.jpg in Resources */,
+				77E100BDEE04A785B54309F0 /* pena_2.jpg in Resources */,
+				77E10C8429BFCFBAFC3CE564 /* crackedGlass.png in Resources */,
+				77E105F9D13039083DB8E533 /* tape1.png in Resources */,
+				77E10AA9E14BF4492D0F4FCE /* tape2.png in Resources */,
+				77E10E3B64829A34DA97EE13 /* tape3.png in Resources */,
+				77E10DA86FC442EBF872119B /* tape4.png in Resources */,
+				77E1093B0D8C8B05FEEB6E39 /* squashed_tomato.png in Resources */,
+				77E106D21D1FFE205AFB799D /* squashed_tomato@2x.png in Resources */,
+				77E10C6E0D99C9826C581FAC /* splat.wav in Resources */,
+				77E107C839B7CA5F026B3124 /* pena_speaking.mp3 in Resources */,
+				77E10AE10D30A87ED248C3F3 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07590941194AA7A300A4B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0759094F194AA7A300A4B469 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07590924194AA7A300A4B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07590938194AA7A300A4B469 /* main.m in Sources */,
+				0759095C194CB91500A4B469 /* CLYSystemSounds.m in Sources */,
+				0759093C194AA7A300A4B469 /* CLYAppDelegate.m in Sources */,
+				77E1067559AC3C3866322E2E /* CLYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0759093F194AA7A300A4B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07590951194AA7A300A4B469 /* AngryPenaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07590949194AA7A300A4B469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07590927194AA7A300A4B469 /* AngryPena */;
+			targetProxy = 07590948194AA7A300A4B469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07590934194AA7A300A4B469 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07590935194AA7A300A4B469 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0759094D194AA7A300A4B469 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0759094E194AA7A300A4B469 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07590952194AA7A300A4B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07590953194AA7A300A4B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07590955194AA7A300A4B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryPena/AngryPena-Prefix.pch";
+				INFOPLIST_FILE = "AngryPena/AngryPena-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07590956194AA7A300A4B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryPena/AngryPena-Prefix.pch";
+				INFOPLIST_FILE = "AngryPena/AngryPena-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07590958194AA7A300A4B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AngryPena.app/AngryPena";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryPena/AngryPena-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AngryPenaTests/AngryPenaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07590959194AA7A300A4B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AngryPena.app/AngryPena";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngryPena/AngryPena-Prefix.pch";
+				INFOPLIST_FILE = "AngryPenaTests/AngryPenaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07590923194AA7A300A4B469 /* Build configuration list for PBXProject "AngryPena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07590952194AA7A300A4B469 /* Debug */,
+				07590953194AA7A300A4B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07590954194AA7A300A4B469 /* Build configuration list for PBXNativeTarget "AngryPena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07590955194AA7A300A4B469 /* Debug */,
+				07590956194AA7A300A4B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07590957194AA7A300A4B469 /* Build configuration list for PBXNativeTarget "AngryPenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07590958194AA7A300A4B469 /* Debug */,
+				07590959194AA7A300A4B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07590920194AA7A300A4B469 /* Project object */;
+}
